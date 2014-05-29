@@ -35,7 +35,7 @@ Documentation
 
 Other than the method names differing from the routes all data and required fields match the [Bukget v3 API](http://bukget.org/documentation).
 
-### Init
+### Init Options
 ```javascript
    var bukget = require('bukget')({
         url: 'api.bukget.org/',
@@ -56,6 +56,8 @@ Other than the method names differing from the routes all data and required fiel
 * `localAddress` - *string* - local address to bind to when making connections
 * `pluginServer` - *string* - which server binary to use plugins lookups for
 
+
+### Methods
 
 * [General](https://github.com/nodecraft/bukget.js/wiki/General/)
 * [Plugins](https://github.com/nodecraft/bukget.js/wiki/Plugins)
