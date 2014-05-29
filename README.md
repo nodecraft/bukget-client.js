@@ -35,6 +35,28 @@ Documentation
 
 Other than the method names differing from the routes all data and required fields match the [Bukget v3 API](http://bukget.org/documentation).
 
+### Init
+```javascript
+   var bukget = require('bukget')({
+        url: 'api.bukget.org/',
+	    version: 3,
+	    https: false,
+	    rejectUnauthorizedSSL: false,
+	    userAgent: 'Bukget-node.js',
+	    localAddress : false,
+	    pluginServer: 'bukkit'
+   });
+```
+
+* `url` - *string* - url to make requests to. Useful when to change when using an internal bukget server
+* `version` - *int* - version number to prepend to each route request
+* `https` - *boolean* - Force HTTPS requests
+* `rejectUnauthorizedSSL` - *boolean* - Force requests to accept unauthorized SSL certificates
+* `userAgent` - *string* - useragent used to track usage.
+* `localAddress` - *string* - local address to bind to when making connections
+* `pluginServer` - *string* - which server binary to use plugins lookups for
+
+
 * [General](https://github.com/nodecraft/bukget.js/wiki/General/)
 * [Plugins](https://github.com/nodecraft/bukget.js/wiki/Plugins)
 * [Update](https://github.com/nodecraft/bukget.js/wiki/Update)
