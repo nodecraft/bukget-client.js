@@ -1,7 +1,7 @@
 bukget.js
 =========
 
-    npm install h9
+    npm install bukget
 
 
 
