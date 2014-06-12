@@ -52,10 +52,11 @@ module.exports = function(config){
 				reqType = 'POST';
 			}
 			var urlParams = '?' + qs.stringify(getParams);
-			console.log(this.makeUrl(url, config.version) + urlParams);
+			var requestUrl = this.makeUrl(url) + urlParams;
+            console.log(requestUrl);
 			var options = {
 				method: reqType,
-				url: this.makeUrl(url) + urlParams,
+				url: requestUrl,
 				json: true,
 				followRedirect: false,
 				headers: {
