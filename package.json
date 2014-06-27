@@ -1,12 +1,12 @@
 {
-  "name": "bukget",
+  "name": "bukget-client",
   "description": "Bukget API v3 Wrapper",
   "author": "NodeCraft Hosting LLC <admin@getnodecraft.net> (http://getnodecraft.net)",
-  "version": "0.0.1",
-  "main": "bukget.js",
+  "version": "0.0.2",
+  "main": "bukget-client.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodecraft/bukget.js.git"
+    "url": "https://github.com/nodecraft/bukget-client.js.git"
   },
   "dependencies": {
     "underscore": "*",
